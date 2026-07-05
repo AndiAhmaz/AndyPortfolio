@@ -634,8 +634,8 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy;2024 All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://www.instagram.com/startupeditoraesthetic/">Editor Aesthetic</a>
-            </p>
+<p class="m-0">&copy;<span id="currentYear"></span> All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://www.instagram.com/startupeditoraesthetic/">Editor Aesthetic</a>
+</p>
         </div>
     </div>
     <!-- Footer End -->
@@ -649,6 +649,9 @@
 
     <!-- JavaScript Libraries -->
     <!-- JavaScript Libraries -->
+    <script>
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
+</script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
